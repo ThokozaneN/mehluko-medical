@@ -216,7 +216,7 @@
             
             // Monday-Friday: 8am-6pm, Saturday: 9am-1pm
             const isOpen = 
-                (day >= 1 && day <= 5 && hour >= 8 && hour < 18) || 
+                (day >= 1 && day <= 5 && hour >= 8 && hour < 17) || 
                 (day === 6 && hour >= 9 && hour < 13);
             
             if (isOpen) {
